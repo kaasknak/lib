@@ -7,7 +7,7 @@ setuptools.setup(
     name="lib-kaasknak",
     version="0.0.1",
     author="kaasknak",
-    author_email="None",
+    author_email="private@mail.com",
     description="Dealing with isotopic inventories.",
     long_description=long_description,
     long_description_content_type="text/markdown",
