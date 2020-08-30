@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lib-kaasknak",
-    version="0.0.1",
+    version="0.1.0",
     author="kaasknak",
     author_email="private@mail.com",
     description="Dealing with isotopic inventories.",
