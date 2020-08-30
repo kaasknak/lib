@@ -7,14 +7,15 @@ In order to install this package type: *pip3 install lib-kaasknak*
 In order to use the package import lib in your python editor of choice.
 
 The commands that can be used are:
-- Element(input) which gives the Z-value of the corresponding element.
+- ElementZ(input) which gives the Z-value of the corresponding element.
+- ElementN(input) which gives the name of the element corresponding to this Z-value.
 - NatComp(input) which gives the isotopes in nature and their fractions.
 
 ### Example
 
 ```python
 import lib
-a=lib.Element("Gd")
+a=lib.ElementZ("Gd")
 b,c=lib.NatComp("Gd")
 print(a)
 print(b)
@@ -30,3 +31,4 @@ print(c)
 If the element has no natural occuring isotopes it will return a list with one 0 in it. If the element only has traces of an isotope occuring in nature it will return the mass numbers of these traces. In both cases the fractions list will contain a single 0.
 
 Data is gather from the wikipedia page for every individual element.
+
