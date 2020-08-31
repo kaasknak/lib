@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="lib-kaasknak",
+    name="lib-elem-isotopes",
     version="0.1.0",
     author="kaasknak",
     author_email="private@mail.com",

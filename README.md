@@ -1,7 +1,7 @@
 ### Installation
 To install this package it is best to use pip3.
 
-In order to install this package type: *pip3 install lib-kaasknak*
+In order to install this package type: *pip3 install lib-elem-isotopes*
 
 ### Usage
 In order to use the package import lib in your python editor of choice.
